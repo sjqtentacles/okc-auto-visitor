@@ -5,9 +5,10 @@
 In the file you'll see a variable at the end named "match." 
 The match variable holds the url of a specific query made to Okcupid. What kind of query? 
 
-1] Log onto okcupid
-<br/>
-2] click the "Browse Matches" link on the left sidebar
+<ol>
+<li>Log onto okcupid</li>
+<li>click the "Browse Matches" link on the left sidebar</li>
+</ol>
 
 You will see some parameters like "looking for women" or an age range and whatnot. After you fill it out, click "Search" and it will give you a page of results.
 <br/>
@@ -20,6 +21,9 @@ The reason for this is to load as many results as allowed into the search page (
 <br/>
 The code is set to a 3 second timer to hopefully avoid banning issues (works for me) and you can put as many matches as you'd like as long as you also remember to "findPeople(match)"
 <br/>
-Oh and make sure to put your login credentials in the script at the top (you'll know where).<br/>
+Oh and make sure to put your login credentials in the script at the top (you'll know where).
+<br/>
+Ah yes and I accidentally left in the mongodb line, which you can expand into web-scraping services or remove if you just want an auto-visitor.
+<br/>
 
 Have fun. 
